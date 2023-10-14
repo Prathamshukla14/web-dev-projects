@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "General Sans";  
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 99999;
+    opacity: 0.7;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#heading{
+    margin-top: 50px;
+}
+
+
+#heading h1{
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-left: 35px;
+    font-size: 8.5vw;
+    line-height: 1;
+    font-weight: 900;
+    
+    
+}
+
+#heading #secondh1{
+    margin-left: 230px;
+}
+
+.blocktest {
+    width: fit-content;
+    display: flex;
+        flex-direction: column;
+        align-items: end;
+}
+.blocktest h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#smallheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+     margin-top: 100px;
+     text-align: right;
+     padding-right: 50px;
+     text-transform: uppercase;
+     font-size: 1vw;
+
+}
+
+#mainfooter{
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainfooter a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#mainfooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+
+#iconset .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#secondpage{
+    padding-top: 180px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding-left: 35px;
+}
+
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    width: 88%;
+    padding: 2vw 3vw;
+    padding-right: 0;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 5vw;
+    opacity: 0.7;
+}
+
+.elemlast{
+    border-bottom: 1px solid grey;
+}
+
+.elem img{
+    position: absolute;
+    z-index: 999;
+    height: 190%;
+    opacity: 0;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: black;
+    width: 100%;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    color: white;
+}
+
+#about img{
+    width: 15vw;
+    margin-right: 20px;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+#textabout a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    font-size: 15px;
+}
+
+#subs{
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    padding-bottom: 9vw;
+}
+
+#subs h5{
+    padding-bottom: 10px;
+    opacity: 0.6;
+}
+
+#subs a{
+    text-decoration: none;
+    color: white;
+   margin-bottom: 30px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 30px;
+    color: white;
+
+}
+
+#footer #footerleft{
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px ;
+}
+
+#footerright{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
